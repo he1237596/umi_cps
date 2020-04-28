@@ -1,0 +1,13 @@
+{
+  "name": "umi_cps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "doc:dev": "umi-lib doc dev"
+  },
+  "dependencies": {
+    "umi-library": "^1.6.0",
+    "umi-test": "^1.9.6"
+  }
+}

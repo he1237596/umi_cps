@@ -2,12 +2,13 @@
  * @Author: Chris
  * @Date: 2020-04-28 14:25:39
  * @LastEditors: Chris
- * @LastEditTime: 2020-04-28 18:47:33
+ * @LastEditTime: 2020-04-29 19:03:31
  * @Descripttion: **
  */
 import React, { Component } from 'react';
-import { Playground, Props } from 'docz';
 import PropTypes from 'prop-types';
+import styles from './index.less';
+
 class People extends Component {
   constructor(props){
     super(props);
@@ -16,18 +17,19 @@ class People extends Component {
 
   render(){
    return(
-    <div>
-      <div>name:{this.props.name}，{this.props.children}</div>
-      <div>age:{this.props.age}</div>
+    <div className={styles.people}>
+      <div className={styles.name}>name:{this.props.name}，{this.props.children}</div>
+      <div className={styles.age}>age:{this.props.age}</div>
     </div>
    )
  }
 }
 // const People = ({ name, age, children }) => {
 //   return (
-//     <div>
-//       <div>name:{name}，{children}</div>
-//       <div>age:{age}</div>
+//     <div className={styles.people}>
+//       <div className={styles.name}>name:{name}</div>
+//       {{children}}
+//       <div className={styles.age}>age:{age}</div>
 //     </div>
 //   )
 // }

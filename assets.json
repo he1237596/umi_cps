@@ -1,8 +1,8 @@
 {
-  "vendors.css": "/umi_cps/static/css/vendors.66ca7541dd7574e4953f.css",
+  "vendors.css": "/umi_cps/static/css/vendors.f14544ea829463906026.css",
   "vendors.js": "/umi_cps/static/js/vendors.c74d6f1c.js",
-  "app.js": "/umi_cps/static/js/app.66ca7541dd7574e4953f.js",
+  "app.js": "/umi_cps/static/js/app.f14544ea829463906026.js",
   "src-foo-index.js": "/umi_cps/static/js/src-foo-index.b07f5ddd.js",
-  "src-people-index.js": "/umi_cps/static/js/src-people-index.1afbd4a0.js",
+  "src-people-index.js": "/umi_cps/static/js/src-people-index.e22f94ae.js",
   "index.html": "/umi_cps/index.html"
 }

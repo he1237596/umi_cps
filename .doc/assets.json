@@ -1,8 +1,8 @@
 {
-  "vendors.css": "/static/css/vendors.0b6e7c5ca2410695971e.css",
-  "vendors.js": "/static/js/vendors.8f3100a0.js",
-  "app.js": "/static/js/app.0b6e7c5ca2410695971e.js",
-  "src-foo-index.js": "/static/js/src-foo-index.be1c9b64.js",
-  "src-people-index.js": "/static/js/src-people-index.c025ffa3.js",
-  "index.html": "/index.html"
+  "vendors.css": "/umi_cps/static/css/vendors.e05ce9bd97d882a2909a.css",
+  "vendors.js": "/umi_cps/static/js/vendors.c74d6f1c.js",
+  "app.js": "/umi_cps/static/js/app.e05ce9bd97d882a2909a.js",
+  "src-foo-index.js": "/umi_cps/static/js/src-foo-index.be1c9b64.js",
+  "src-people-index.js": "/umi_cps/static/js/src-people-index.c025ffa3.js",
+  "index.html": "/umi_cps/index.html"
 }

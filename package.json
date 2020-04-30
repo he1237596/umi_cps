@@ -12,9 +12,11 @@
     "doc:deploy": "father doc deploy"
   },
   "dependencies": {
+    "antd": "3.26.16",
     "father": "^2.29.3",
-    "umi-library": "^1.6.0",
-    "umi-test": "^1.9.6",
-    "umi_cps": "^1.0.0"
+    "umi-test": "^1.9.6"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0"
   }
 }

@@ -2,7 +2,7 @@
  * @Author: Chris
  * @Date: 2020-04-28 11:44:38
  * @LastEditors: Chris
- * @LastEditTime: 2020-04-29 18:32:50
+ * @LastEditTime: 2020-04-30 15:48:09
  * @Descripttion: **
  */
 // import * as React from 'react';
@@ -18,31 +18,37 @@
 //     </button>
 //   );
 // }
+import 'antd/dist/antd.css'
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Button } from 'antd'
 
 class Demo extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state={}
+    this.state = {}
   }
 
-  render(){
-  
-   return(
-    <button
-      style={{
-        fontSize: this.props.size === 'large' ? 40 : 20,
-      }}
-    >
-      { this.props.children }
-    </button>
-   )
- }
+  render() {
+
+    return (
+      <div>
+        <button
+          style={{
+            fontSize: this.props.size === 'large' ? 40 : 20,
+          }}
+        >
+          {this.props.children}
+        </button>
+        <Button>DDDD</Button>
+      </div>
+
+    )
+  }
 }
 
 Demo.propTypes = {
-  name: PropTypes.oneOfType([ PropTypes.number, PropTypes.oneOf(['名字', 'mingzi'])]).isRequired,
+  name: PropTypes.oneOfType([PropTypes.number, PropTypes.oneOf(['名字', 'mingzi'])]).isRequired,
   age: PropTypes.number,
 }
 

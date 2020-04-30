@@ -2,12 +2,13 @@
  * @Author: Chris
  * @Date: 2020-04-28 14:25:39
  * @LastEditors: Chris
- * @LastEditTime: 2020-04-29 19:03:31
+ * @LastEditTime: 2020-04-30 15:58:33
  * @Descripttion: **
  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styles from './index.less';
+import styles from './index.module.less';
+import { Button } from 'antd';
 
 class People extends Component {
   constructor(props){
@@ -20,6 +21,8 @@ class People extends Component {
     <div className={styles.people}>
       <div className={styles.name}>name:{this.props.name}，{this.props.children}</div>
       <div className={styles.age}>age:{this.props.age}</div>
+      <Button type='primary' size='large'>antdButton</Button>
+
     </div>
    )
  }

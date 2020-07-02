@@ -1,0 +1,27 @@
+---
+name: AntdButton
+route: /AntdButton
+order: 1
+sidebar: false
+---
+
+import { Playground, Props } from 'docz';
+import AntdButton from './';
+
+# AntdButton
+### 描述
+内部引入了Antd的Button组件进行再封装
+### 属性
+<Props of={AntdButton} />
+
+## 基本用法
+<Playground>
+    <AntdButton>按钮</AntdButton>
+</Playground>
+
+## 其他用法
+
+<Playground>
+    <AntdButton type='primary'>primary按钮</AntdButton>
+    <AntdButton style={{marginTop: 10}} type='ghost' type='primary'>ghost按钮</AntdButton>
+</Playground>

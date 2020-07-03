@@ -1,8 +1,13 @@
 {
-  "vendors.css": "/umi_cps/static/css/vendors.f14544ea829463906026.css",
-  "vendors.js": "/umi_cps/static/js/vendors.c74d6f1c.js",
-  "app.js": "/umi_cps/static/js/app.f14544ea829463906026.js",
-  "src-foo-index.js": "/umi_cps/static/js/src-foo-index.b07f5ddd.js",
-  "src-people-index.js": "/umi_cps/static/js/src-people-index.e22f94ae.js",
+  "vendors.css": "/umi_cps/static/css/vendors.c7ce856a5d7fc7496ee2.css",
+  "vendors.js": "/umi_cps/static/js/vendors.deb23eba.js",
+  "app.js": "/umi_cps/static/js/app.c7ce856a5d7fc7496ee2.js",
+  "src-antd-button-index.css": "/umi_cps/static/css/src-antd-button-index.c7ce856a5d7fc7496ee2.css",
+  "src-antd-button-index.js": "/umi_cps/static/js/src-antd-button-index.93ef4025.js",
+  "src-home-index.js": "/umi_cps/static/js/src-home-index.82b9abef.js",
+  "src-mg-button-index.css": "/umi_cps/static/css/src-mg-button-index.c7ce856a5d7fc7496ee2.css",
+  "src-mg-button-index.js": "/umi_cps/static/js/src-mg-button-index.f5fdfbe1.js",
+  "src-normal-empty-index.css": "/umi_cps/static/css/src-normal-empty-index.c7ce856a5d7fc7496ee2.css",
+  "src-normal-empty-index.js": "/umi_cps/static/js/src-normal-empty-index.6df7fae4.js",
   "index.html": "/umi_cps/index.html"
 }

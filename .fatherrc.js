@@ -2,14 +2,14 @@
  * @Author: Chris
  * @Date: 2020-04-28 11:37:08
  * @LastEditors: Chris
- * @LastEditTime: 2020-04-30 16:00:49
+ * @LastEditTime: 2020-07-03 21:53:18
  * @Descripttion: **
  */
 import commonjs from 'rollup-plugin-commonjs';
 export default {
   entry: 'src/index.js',
-  esm: 'rollup',
-  cjs: 'rollup',
+  esm: 'babel',
+  cjs: 'babel', 
   doc: {
     base: '/umi_cps',
   },

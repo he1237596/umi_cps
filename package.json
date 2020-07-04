@@ -1,8 +1,8 @@
 {
   "name": "umi_cps",
   "version": "1.0.4",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "license": "MIT",
   "scripts": {
     "doc:dev": "father doc dev",

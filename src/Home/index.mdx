@@ -1,27 +1,40 @@
 ---
-name: 简单介绍
+name: 首页
 route: /
 order: 0
 sidebar: false
 ---
-
 import { Playground } from 'docz';
+import MgButton from '../MgButton';
+import AntdButton from '../AntdButton';
 
-# 蘑菇物联前端组件库
+## 蘑菇物联前端体系之--前端组件库
+### 安装
+``` js
+npm install umi_cps
+// 或者用yarn安装
+yarn add umi_cps
+```
 
-### 基于公司当前前端开发现状和目前所在项目组业务需求，有必要进行前端公共组件的封装抽离并单独部署，以避免重复造轮子，提高开发效率，降低维护成本。
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+### 使用
+``` jsx
+import { 
+  MgButton,
+} from 'umi_cps'
+const Demo = () => <MgButton>蘑菇的第一个button</MgButton>
+export default Demo
+```
+### 实例
+<Playground>
+    <MgButton bordered={false} type='ghost'>蘑菇的第一个按钮</MgButton>
+    <br />
+    <MgButton bordered={true} type='ghost'>蘑菇的第二个按钮</MgButton>
+    <br />
+    <AntdButton type='primary'>蚂蚁金服按钮</AntdButton>
+</Playground>
 
-##### Tip: 一个框架一套工具需要不停的投入时间和精力去完善，需要有团队的支持才能经得起风火洗礼！
+使用文档：
+https://he1237596.github.io/umi_cps/AntdButton
+##### Tip: 一个框架一套工具需要不停的投入时间和精力去完善，需要有团队的支持才能经得起风火洗礼！我很期待后面的路！
 
 

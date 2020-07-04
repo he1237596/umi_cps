@@ -1,0 +1,51 @@
+---
+name: Alert
+route: /Alert
+order: 5
+sidebar: true
+---
+
+import { Playground } from 'docz'
+import Alert from './index'
+
+## Alert警告提示组件
+
+#### 描述
+这是一个函数组件，支持hooks写法
+
+#### 基本用法
+
+<Playground>
+    默认
+    <Alert message="温馨提示：请勿吸烟！请勿吸烟！请勿吸烟！" />
+    可关闭
+    <Alert message="温馨提示：请勿吸烟！请勿吸烟！请勿吸烟！" closable />
+</Playground>
+
+#### 其他用法
+<Playground>
+    <Alert message="请求成功：戒烟成功！" type="success" />
+    <Alert message="请求失败：戒烟失败！" type="error" />
+    <Alert message="最新通知：组件库基础环境已初步搭建完成" type="info" />
+    <Alert message="温馨提示：组件库的开发维护需要大家一起努力" />
+</Playground>
+
+#### 实例
+
+``` js
+import { Alert } from 'umi_cps'
+
+// 导入
+<Alert message="提交成功" description="你的代码已提交成功，快发通知给各位同仁吧" type="success" closable />
+```
+
+#### API文档
+|  参数  |  说明  |  类型  |  默认值  |
+|  ---   |  ---  |  ---  |  ---  |
+|  style  |  更改Alert样式  |  object  |  |
+|  closable  |  是否显示关闭按钮, 默认不显示  |  bool  |  false  |
+|  closeText  |  自定义关闭按钮  |  string|reactNode  |  'x'  |
+|  message  |  警告提示内容  |  string  |    |
+|  description  |  警告提示的辅助性文字  |  string  |    |
+|  type  |  警告的类型  |  string  |   'warning' |
+|  onClose  |  关闭时触发的事件  |  func  |    |

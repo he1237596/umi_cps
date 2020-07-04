@@ -2,7 +2,7 @@
  * @Author: Chris
  * @Date: 2020-07-02 20:12:37
  * @LastEditors: Chris
- * @LastEditTime: 2020-07-03 17:02:48
+ * @LastEditTime: 2020-07-04 13:35:08
  * @Descripttion: **
  */
 import React from 'react';
@@ -26,7 +26,7 @@ var MgButton = function MgButton(props) {
   };
   return /*#__PURE__*/React.createElement("div", {
     className: styles.container
-  }, "aaaaaaaaaaa", /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     style: custom[type],
     className: styles.btn
   }, props.children));

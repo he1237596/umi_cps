@@ -4,6 +4,10 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/he1237596/umi_cps.git"
+  },
   "scripts": {
     "doc:dev": "father doc dev",
     "dev": "father build --watch",

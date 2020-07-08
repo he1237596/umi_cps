@@ -2,7 +2,7 @@
  * @Author: Chris
  * @Date: 2020-04-28 11:37:08
  * @LastEditors: Chris
- * @LastEditTime: 2020-07-04 15:42:44
+ * @LastEditTime: 2020-07-07 19:50:02
  * @Descripttion: **
  */
 import commonjs from 'rollup-plugin-commonjs';
@@ -12,6 +12,8 @@ export default {
   cjs: 'babel', 
   doc: {
     base: '/umi_cps',
+    title: 'MgUi',
+    themeConfig: { mode: 'light' },
   },
   cssModules: false,
   // cssModules: {

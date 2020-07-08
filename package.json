@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "license": "MIT",
+  "homepage": "https://he1237596.github.io/umi_cps/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/he1237596/umi_cps.git"
